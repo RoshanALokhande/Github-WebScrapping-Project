@@ -41,7 +41,9 @@ STEPS TO RUN THE SCRIPT:
    cd WebScraping-For-Github
    
 2.Install required libraries:
-  pip install -r requirements.txt
+ pip install pandas
+ pip install beautidfulsoup from BS4
+ pip install requests 
   
 3.Run the script:
   python scrape_github_topics.py
